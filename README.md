@@ -36,12 +36,12 @@ B. Un lenguaje de programación
 C. Un videojuego
 D. Una ciudad
 ---
-2.	Which of the following are the current options for paid support in GCP? (Select three)
-A.	Standard
-B.	Enhanced
-C.	Premium
-D.	Role
-E.	Premier
+2. Which of the following are the current options for paid support in GCP? (Select three)
+A. Standard
+B. Enhanced
+C. Premium
+D. Role
+E. Premier
 ```
 ### 2. `respuestas.txt`
 Cada línea contiene la opción correcta para la pregunta correspondiente en `preguntas.txt`.  
@@ -55,6 +55,7 @@ Cada línea contiene la explicación de la respuesta correcta correspondiente. E
 **Formato:**
 ```text
 1:Python es un lenguaje de programación de alto nivel muy usado en desarrollo web, ciencia de datos, automatización, entre otros.
+---
 2:GCP provides three options for paid support, which are Standard, Enhanced, and Premium. Basic Support is included with your Google Cloud subscription, which only covers case, phone, and chat support for billing issues.
 ```
 
