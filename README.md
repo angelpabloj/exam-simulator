@@ -22,6 +22,28 @@ simulador-examenes/
 ├── requirements.txt
 └── README.md
 ```
+## 🌿 Variables de Entorno
+
+El archivo `.env` se utiliza para configurar las variables de entorno necesarias para que la aplicación funcione correctamente. A continuación se detallan las variables que debes incluir en el archivo `.env`:
+
+### Variables Requeridas
+
+- **ARCHIVO_PREGUNTAS**: Define el nombre del archivo que contiene las preguntas para el examen.
+  - Ejemplo: `preguntas.txt`
+
+- **ARCHIVO_RESPUESTAS**: Define el nombre del archivo que contiene las respuestas correctas para cada pregunta.
+  - Ejemplo: `respuestas.txt`
+
+- **ARCHIVO_EXPLICACIONES**: Define el nombre del archivo que contiene las explicaciones de las respuestas correctas.
+  - Ejemplo: `explicaciones.txt`
+
+### Ejemplo de archivo `.env`
+
+```env
+ARCHIVO_PREGUNTAS=preguntas.txt
+ARCHIVO_RESPUESTAS=respuestas.txt
+ARCHIVO_EXPLICACIONES=explicaciones.txt
+```
 
 ## 📂 Estructura de Archivos de Entrada
 El sistema requiere tres archivos de entrada con el siguiente formato:
@@ -62,14 +84,11 @@ Cada línea contiene la explicación de la respuesta correcta correspondiente. E
 ## ⚙️ Instalación
 1. Clona el repositorio:
 ```
-git clone https://github.com/tuusuario/simulador-examenes.git
-cd simulador-examenes`
+git clone https://github.com/tuusuario/exam-simulator.git
+cd exam-simulator`
 ```
-2. Contruye la imagen
-`docker build -t simulator-exam .`
+2. Crea el contenedor
+`docker-compose up --build`
 
-3. Ejecuta el contenedor
-`docker run -p 8080:8080 simulator-exam`
-
-4. Abre tu navegador y accede a: http://localhost:8080
+3. Abre tu navegador y accede a: http://localhost:8080
 
