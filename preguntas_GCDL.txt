@@ -1,0 +1,640 @@
+1.	Which of the following are the current options for paid support in GCP? (Select three)
+A.	Standard
+B.	Enhanced
+C.	Premium
+D.	Role
+E.	Premier
+---
+2.	You are looking for a one-stop reference page for GCP support. What page would you select? (Select one)
+A.	Compliance Hub
+B.	Support Hub
+C.	Google Cloud Platform Status
+D.	Pricing Page
+---
+3.	A customer deploys an application to App Engine and needs to check for Open Web Application Security Project (OWASP) vulnerabilities. Which service should be used to accomplish this? (Select one)
+A.	Cloud Armor
+B.	Binary Authorization
+C.	Cloud Security Scanner 
+D.	Forseti Security
+---
+4.	GCP provides three main compliance resource webpages. What are they? (Select three)
+A.	Support Hub
+B.	Compliance Reports Manager
+C.	GDPR Homepage
+D.	Compliance Offerings
+E.	TechCentral
+---
+5.	Which of the	following statements describe	the	features of a preemptible VM instance? (Select three)
+A.	Instance is alive for no more than 24 hours
+B.	Instance is alive for no more than 12 hours
+C.	Discounted significantly
+D.	Can use free tier credits
+E.	Can be pre-empted with a 30-second notice
+F.	Can be pre-empted with a 30-minute notice
+---
+6.	Virtual Machine	vCPU and memory	usage	for each of	these categories can receive which of the following discounts? (Select three)
+A.	Sustained-Use
+B.	Committed-Use
+C.	Spot Instances
+D.	Military Discounts
+E.	Preemptible VMs
+---
+7.	All Google Cloud Platform services are associated with a project that provides what functions? (Select four)
+A.	Enable services and APIs
+B.	Track resource usage
+C.	Manage container deployments
+D.	Manage DNS services
+E.	Enable billing
+F.	Manage permissions and credentials
+---
+8.	What cloud deployment model is generally deployed between organizations such as non-profits, hospitals, or even enterprises that share similar requirements or interests? (Select one)
+A.	Hybrid
+B.	Private
+C.	Public
+D.	Community
+---
+9.	What cloud service model would you select if you wanted to solve a particular business problem by providing CRM services in the cloud to your enterprises? (Select one)
+A.	PaaS
+B.	IaaS
+C.	SaaS
+D.	CaaS
+---
+10.	Your company has signed up with a cloud provider, where you will use storage and VM. The provider has offered your organization some expectations the service should perform at. What type of agreement provides a guarantee of a certain level of service such as "Uptime"? (Select one)
+A. Interconnection agreement
+B. Service level agreement
+C. Warranty
+D. Performance agreement
+--- 
+11.	Which of the following NIST Cloud characteristics uses the business model of shared resources in a cloud environment? (Select one)
+A.	Broad Network Access
+B.	Elasticity
+C.	Availability
+D.	Multi-Tenancy
+---
+12.	A customer has contacted you about migrating to Google Cloud. The customer would like to migrate their data from on-premises as soon as possible. They don’t have the budget to rewrite code, and they want the most direct route. What migration option should you suggest to the customer? (Select one)
+A.	Lift and Shift
+B.	Improve and Move
+C.	Rip and Replace
+D.	None, since the customer is not cloud-native ready
+---
+13.	What load balancer type is supported with Cloud Armor security policies? (Select one)
+A.	Regional SSL
+B.	HTTP(S) only
+C.	HTTP(S) and SSL
+D.	SSL Proxy, HTTP(S), and SSL
+---
+14.	When creating a project in Google Cloud, it is important to understand a project’s quotas limits. By default, you can create up to networks per project. (Select one)
+A.	10
+B.	100
+C.	5
+D.	50
+---
+15.	Compute Engine provides machine-type recommendations to help you optimize the resource utilization of your virtual machine (VM) instances. What is this capability called? (Select one)
+A.	Recommendation Engine
+B.	Best Practice Recommendations
+C.	Rightsizing Recommendations
+D.	App Engine
+E.	None of the above
+---
+16.	App Engine has been deployed in your customer’s GCP cloud deployment. The customer would like to know more about the benefits of App Engine Flexible. Please advise them on the benefits of App Engine Flexible. (Select two)
+A.	Supports autoscaling
+B.	Supports Docker containers
+C.	Supports mainframe connectivity
+D.	Source code is written in specific versions of the supported programming languages only
+---
+17.	Cloud Data Loss Prevention (DLP) is a fully managed service designed to help discover, classify, and protect the most sensitive data. DLP provides three key features. What are they? (Select three)
+A.	Classification
+B.	De-identification
+C.	De-classification
+D.	Reinspection
+E.	Inspection
+---
+18.	What service is a fully managed, real-time messaging service that allows you to send and receive messages between independent applications? (Select one)
+A.	Cloud Pub-Sub
+B.	Cloud BigTable
+C.	Cloud Spanner
+D.	Cloud DNS
+E.	Cloud Datastore
+---
+19.	Projects are important from a cloud deployment perspective for several reasons and provide multiple benefits. What are the two main benefits of using a project? (Select two)
+A.	A project associates objects and services with billing
+B.	A project facilitates the organization of services and objects
+C.	A project facilitates monitoring and management
+D.	A project is responsible for linking APIS to organizations
+---
+20.	You have been contacted by the enterprise support team, who have told you there have been reports of significant latency at specific times for an application running on GCP. They would like you to review the issue and explain why the application is latent at specific times. What Google Cloud service could you use to inspect latency data that has been collected in near real-time? (Select one)
+A.	Cloud Debug
+B.	Cloud Trace
+C.	VPC Trace Logs
+D.	Cloud Profiler
+---
+21.	The organization resource is the root node in the Google Cloud Platform hierarchy and is the hierarchical supernode of projects. What are the types of customers an organization resource is available for? (Select two)
+A.	Google Workspace
+B.	Gmail
+C.	Google for Education
+D.	Cloud Identity
+---
+22.	Your development team is moving to a container-based application and will also shift to a DevOps-based culture. The development lead has requested they use Google Container Registry(GCR) for their docker containers. What would be some reasons your development team would want to use Container Registry instead of a third-party application? (Select two)
+A.	GCR provides a single place for teams to manage Docker images, perform vulnerability analysis, and decide who can access what with fine-grained access control
+B.	Costs for use are based only on Google Cloud Platform usage
+C.	GCR allows for migration from any container solution and is licensed-based per container
+D.	GCR does not provide fine-grained access controls but allows you to extend third-party solutions
+
+---
+23.	Which of the following features are supported by GCP Cloud Storage? (Select two)
+A.	Object Versioning
+B.	Object Lifecycle Management
+C.	Object Analysis Management
+D.	Object Antivirus Scanning
+---
+24.	"Scale to zero" is a phrase or common buzzword used in Cloud technology. Google has some great capabilities around this. What would be the best statement to describe what "scale to zero" really means for Google Cloud? (Select one)
+A.	Scaling to zero allows containers to be run only when there is demand
+B.	Scaling to zero allows virtual machines to be run only when there is demand
+C.	Scaling to zero allows containers to be run only when there is a budget
+D.	Scaling to zero allows virtual machines to be run only when there is a budget
+---
+25.	Your development team has been migrating the enterprise data warehouse service to Google Cloud. They chose Google BigQuery specifically for large amounts of data they will query. What is the best reason below for selecting BigQuery over BigTable? (Select one)
+A.	BigQuery is what you use when you have collected a large amount of data and need to ask questions about it
+B.	BigQuery is cheaper than AWS comparables
+C.	Latency is critical, and BigQuery is a low latency service compared to BigTable
+D.	BigQuery is a low latency data warehouse
+---
+26.	Which Google Cloud Service or API has a use case for Machine Learning Teams with ML Expertise? (Select one)
+A.	Vision API
+B.	DLP API
+C.	Vertex AI
+D.	TensorFlow
+---
+27.	You’re currently considering moving your CI pipeline from on- premises to Google Cloud Platform. You would like to have code maintained in a private Git repository hosted on the Google Cloud Platform. What service would you choose? (Select one)
+A.	Container Registry
+B.	Kubernetes Engine
+C.	Cloud Source Repositories
+D.	Cloud Build
+E.	Cloud Run
+---
+28.	What is the term used for a set of techniques known in machine learning in the training and operation of deep learning models? (Select one)
+A.	Tensors
+B.	TensorFlow
+C.	Pre-Trained
+D.	TPU
+---
+29.	The machine learning team at your company has decided to start using Google Cloud ML-based services. They are specifically interested in running cutting-edge machine learning models with AI services on Google Cloud backed by ASICs. What service would they choose? (Select one)
+A.	Cloud TPU
+B.	Cloud Tensor
+C.	Cloud Vision
+D.	Vision API
+---
+30.	A data pipeline is a set of actions (workflow) that ingest raw data from disparate sources and move the data to a destination for storage and analysis. Your development would like to use a GCP service that can be used for data processing for both batch and real-time data streaming applications. It is important to note that the service must also be able to extract data to endpoints for a data analytics application. What service on GCP would you choose? (Select one)
+A.	Cloud Dataflow
+B.	Cloud Pub/Sub
+C.	Cloud Datastore
+D.	Cloud BigQuery
+--- 
+
+31.	Your company has decided to migrate over 600 petabytes of data from on-premises to Cloud Storage. This data migration has a short migration window and is preferred to transfer online. The development team is aware that the network bandwidth is sufficient for transferring this data in less than two weeks. What option for data transfer would you choose based on the information given for a network-based transfer? (Select one)
+A.	Cloud Pub/Sub
+B.	Cloud Datastore
+C.	Cloud Storage Transfer Service
+D.	Transfer Appliance
+---
+32.	Software Development Lifecycle (SDLC) is a widely used framework with application development teams. Which of the following two statements properly describe what SDLC is? (Select two)
+A.	The Software Development Life Cycle (SDLC) is a process that produces software with the highest quality and lowest cost in the shortest time possible
+B.	SDLC provides a baseline for developers so they can compare past performance of deployments
+C.	SDLC is a proprietary method that is only used for on-premise deployments. SDLC will not be a good framework for cloud deployments
+D.	SDLC provides a well-structured flow of phases that help an organization to quickly produce high-quality software which is well-tested and ready for production use
+---
+33.	The company hiring you to design a cloud application that will transform their business now need the following requirements. They want to utilize as many GCP data-focused services as possible: 1.	Enterprise Data Warehouse (EDW) with SQL 2.	Fast response times for OLAP workloads up to petabyte-scale 3.	Supports Big Data services and BI Tools 4.	Fully managed service. What service would you recommend to the customer based on the limited information? (Select one)
+A.	BigTable
+B.	BigQuery
+C.	Cloud Spanner
+D.	Cloud SQL
+---
+34.	The Google Cloud Adoption Framework serves both as a map for determining where your business information technology capabilities are now and as a guide to where you want to be. What phase of the framework is when "the extent to which your IT departments are supported by a mandate from leadership to migrate to Google Cloud"? (Select one)
+A.	Learn
+B.	Lead
+C.	Secure
+D.	Scale
+---
+35.	The Google Cloud Adoption Framework has three themes. Which of the following are NOT themes in the Google Cloud Adoption Framework? (Select two) Note: on the exam, ensure you do not confuse "themes" and "topics" as they are documented.
+A.	Lead
+B.	Learn
+C.	Tactical
+D.	Strategic
+E.	Transformational
+---
+
+36.	You’re currently working on a Google Cloud project for the company you work for. The project you’re on has now been fully migrated, and the applications are currently deployed in production as of last week with cloud-native capacity. When referring to the Google Cloud Adoption Framework, what phase would this project now be in? (Select one).
+A.	Assess
+B.	Plan
+C.	Deploy
+D.	Optimize
+---
+37.		is a sparsely populated table that can scale to billions of rows and thousands of columns with low latency. This feature will allow your enterprise to store terabytes or even petabytes of data. What is the service being referenced? (Select one)
+A.	Cloud Bigtable
+B.	Cloud BigQuery
+C.	Cloud Datastore
+D.	Cloud Spanner
+
+---
+38.	You are currently working on a Machine Language project for a customer. The customer has asked you to validate the supportability of machine language technologies with GCP. What capability is a Machine Language computation library solution that is directly supported by Google Cloud Platform and supports data flow graphing? (Select one).
+A.	Cloud TPU
+B.	TensorFlow
+C.	Cloud Tensor
+D.	Vertex AI
+--- 
+
+39.	Google Cloud supports various international compliance standards. What is the international compliance standard that provides guidelines for information security controls applicable to the provision and use of cloud services? (Select one)
+A.	ISO 27001
+B.	ISO 27002
+C.	ISO 27017
+D.	ISO 27018
+---
+
+40.	Your company is looking to utilize the power of the GCP Cloud. You need to set up VMs with a stable block storage solution that is fully managed. What is the solution you need to specify? (Select one)
+A.	Cloud Storage
+B.	Persistent Disk
+C.	Cloud Spanner
+D.	Cloud FileStore
+---
+41.	You are currently reviewing services in GCP for your deployments for container and cloud-native solutions. Which of the following two statements would be correct regarding the main difference in a use case for Cloud Run as opposed to Cloud Functions? (Select two)
+A.	Cloud Run uses containers and makes them invocable via HTTP requests, while Cloud Functions is Google's event-driven serverless platform that does not use containers
+B.	Cloud Run is a cloud-native service, while Cloud Functions is not
+C.	Cloud Functions is based on Knative, which means similar solutions will likely appear on other managed Kubernetes platforms
+D.	Cloud Run is a managed serverless service that is event-based (Triggers, Webhook)
+---
+42.	Your organization has deployed services in GCP and would now like to access, manage, and monitor these services over an internet connection. Your organization does not need a well-provisioned network, nor does it need a dedicated link. What connectivity option would you choose? (Select one)
+A.	Cloud VPN
+B.	Cloud Interconnect
+C.	Carrier Peering
+D.	Partner Interconnect
+---
+43.	Which of the following two statements are true about service accounts in GCP? (Select two)
+A.	A service account is an identity for your programs to authenticate and gain access to GCP APIs (Server to Server)
+B.	A service account is an identity for your users to authenticate and gain access to GCP APIs (User to Server)
+C.	Each service account is associated with a key pair, which is managed by GCP
+D.	Google rotates the keys for service accounts weekly
+---
+44.	You want to provide private access options that let virtual machine (VM) instances reach supported APIs and services without requiring an external IP address. What solution with GCP would you choose? (Select one)
+A.	Cloud VPC
+B.	Cloud VPN
+C.	Private Access
+D.	Cloud Interconnect
+---
+45.	Cloud Identity is an Identity as a Service (IDaaS) solution that centrally manages users and groups. Cloud Identity has two specific versions. What are they? (Select two)
+A.	Free
+B.	Basic
+C.	Private
+D.	Premium
+E.	Commercial
+---
+46.	Cloud SQL is a fully-managed database service that makes it easy to set up, maintain, manage, and administer your relational MySQL databases in the cloud. What are two benefits/features of using Cloud SQL? (Select two)
+A.	Flexible pricing
+B.	Supports all SQL versions
+C.	A managed service
+D.	Extends to your on-premises databases
+---
+47.	Which of the following statements would be true regarding Google Migrate for Compute Engine? (Select two)
+A.	Formerly called Velostrata before Google purchased them
+B.	Google Migrate for Compute is a migration service that provides for data migrations transparently in the background
+C.	Google Migrate for Compute is a partner service that provides for data migrations transparently in the foreground
+D.	VCenter is not required for VMWare migrations
+---
+48.	Your new employer has hired you to help transform the current on- premises environment to a cloud-native deployment on Google Cloud. One of the first tasks you need to determine is securely connecting to Google Cloud without a private link. You have been asked to provide a link that will be secure but also have a low overhead. What option would you choose? (Select one)
+A.	Cloud Peering
+B.	Cloud VPN
+C.	Partner Interconnect 
+D.	Direct Peering
+---
+49.	Your new team is discussing cloud spending and wants to ensure they use a funding model that uses their monthly allocation of funds. They do not have authorization for a large procurement. What type of funding model should be chosen? (Select one)
+A.	CAPEX
+B.	OPEX
+C.	Public
+D.	Private
+E.	Hybrid
+---
+50.	The National Institute for Science and Technology (NIST) provides five essential characteristics of cloud computing. Which of the following are the correct characteristics? (Select one)
+A.	Broad Network Access, Resource Pooling, Rapid Elasticity, Measured Service, Replication
+B.	On-Demand Self Service, Broad Network Access, Resource Pooling, Rapid Elasticity, Measured Service
+C.	On-Demand Self Service, Private Network Access, Resource Pooling, Rapid Elasticity, Measured Service
+D.	Broad Network Access, Resource Pooling, Rapid Elasticity, Measured Service, Performance
+---
+51.Your organization meant to purchase a 3-year Committed Use Discount, but accidentally purchased a 1-year Committed Use Discount instead. What should your organization do?
+A.	Contact your financial institution.
+B.	Contact Trust and Safety.C Contact Cloud Billing Support.
+C.	Contact Technical Support.
+---
+52.Your organization needs to allow a production job to have access to a BigQuery dataset. The production job is running on a Compute Engine instance that is part of an instance group. What should be included in the IAM Policy on the BigQuery dataset?
+A.	The Compute Engine instance group
+B.	The project that owns the Compute Engine instance
+C.	The Compute Engine service account
+D.	The Compute Engine instance
+---
+53.Your organization needs to ensure that the Google Cloud resources of each of your departments are segregated from one another. Each department has several environments of its own: development, testing, and production. Which strategy should your organization choose?
+A.	Create a project per department, and create a folder per environment in each project.
+B.	Create a folder per department, and create a project per environment in each folder.
+C.	Create a Cloud Identity domain per department, and create a project per environment in each domain.
+D.	Create a Cloud Identity domain per environment, and create a project per department in each domain.
+---
+54.Your organization needs to minimize how much it pays for data traffic from the Google network to the internet. What should your organization do?
+A.	Choose the Standard network service tier.
+B.	Choose the Premium network service tier.
+C.	Deploy Cloud VPN.
+D.	Deploy Cloud NAT. 
+---
+55. Your manager wants to restrict communication of all virtual machines with internet access; with resources in another network; or with a resource outside Compute Engine. It is expected that different teams will create new folders and projects in the near future. How would you restrict all virtual machines from having an external IP address?
+A.	Define an organization policy at the root organization node to restrict virtual machine instances from having an external IP address
+B.	Define an organization policy on all existing folders to define a constraint to restrict virtual machine instances from having an external IP address
+C.	Define an organization policy on all existing projects to restrict virtual machine instances from having an external IP address
+D.	Communicate with the different teams and agree that each time a virtual machine is created, it must be configured without an external IP address
+---
+56. Your organization is running all its workloads in a private cloud on top of a hypervisor. Your organization has decided it wants to move to Google Cloud as quickly as possible. Your organization wants minimal changes to the current environment, while using the maximim amount of managed services Google offers. What should your organization do?
+A.	Migrate the workloads to Google Cloud VMware Engine
+B.	Migrate the workloads to Compute Engine
+C.	Migrate the workloads to Bare Metal Solution
+D.	Migrate the workloads to Google Kubernetes Engine
+---
+57. Your company has recently acquired three growing startups in three different countries. You want to reduce overhead in infrastructure management and keep your costs low without sacrificing security and quality of service to your customers. How should you meet these requirements?
+A.	Host all your subsidiaries' services on-premises together with your existing services.
+B.	Host all your subsidiaries' services together with your existing services on the public cloud.
+C.	Build a homogenous infrastructure at each subsidiary, and invest in training their engineers.
+D.	Build a homogenous infrastructure at each subsidiary, and invest in hiring more engineers.
+---
+58. Which of the following is/are true about Bare Metal Solutions?
+A.	Enterprise-grade deployment platform
+B.	All your existing investment in tooling and best practices will work as is
+C.	Continue to run any version, and feature set, any database option, and any cus- tomizations (patchsets)
+D.	All of the Above.
+---
+59. An organization wants to dynamically adjust its application to serve different user needs. What are the benefits of storing their data in the cloud for this use case?
+A.	Data can be stored in archive for long term access
+B.	Automatic data cleaning and validation
+C.	Real-time data ingestion and analysis
+D.	No data access management required
+---
+60. A retail store has discovered a cost-effective solution for creating self-service kiosks. They can use existing check-out hardware and purchase a virtual customer service application. Why do they also need an API?
+A.	To connect the check-out hardware to the public cloud.
+B.	To connect the new application with the legacy system.
+C.	To migrate all customer data for disaster recovery.
+D.	To update the check-out hardware remotely.
+---
+61. Your company security team manages access control to production systems using an LDAP directory group. How is this access control managed in the Google Cloud production project?
+A.	Assign the proper role to the Service Account in the project's IAM Policy
+B.	Grant each user the roles/iam.serviceAccountUser role on a service account that exists in the Google Group.
+C.	Assign the proper role to the Google Group in the project's IAM Policy.
+D.	Create the project in a folder with the same name as the LDAP directory group.
+---
+62. A video game organization has invested in cloud technology to generate insights from user behaviors. They want to ensure recommendations of games are aligned to players' interests. What may have prompted this business decision?
+A.	Customers expect faster time to market for games.
+B.	Employees expect source code changes to be deployed faster.
+C.	Customers expect a personalized experience.
+D.	Employees expect more predictable data management spending.
+---
+63. Which Google Cloud product is designed to reduce the risks of handling personally identifiable information (PII)?
+A.	Cloud Storage
+B.	Google Cloud Armor
+C.	Cloud Data Loss Prevention
+D.	Secret Manager
+---
+64.Which Google Cloud service or feature lets you build machine learning models using Standard SQL and data in a data warehouse?
+A.	BigQuery ML
+B.	TensorFlow
+C.	AutoML Tables
+D.	Cloud Bigtable ML
+---
+65. An organization is looking for a storage solution that will help them serve content to users worldwide. They need a solution that offers a high level of availability What feature of Cloud Storage would they benefit from?
+A.	Global metadata
+B.	Object versioning
+C.	Data encryption
+D.	Multi-regional storage
+---
+66. An organization has servers running mission-critical workloads on-premises around the world. They want to modernize their infrastructure with a multi-cloud architecture. What benefit could the organization experience?
+A.	Ability to disable regional network connectivity during cyber attacks
+B.	Ability to keep backups of their data on-premises in case of failure
+C.	Full management access to their regional infrastructure
+D.	Reduced likelihood of system failure during high demand events
+---
+67. An organization wants to build autoscaling web applications without having to manage application infrastructure Which Google Cloud product should they use?
+A.	App Engine
+B.	AutoML
+C.	Anthos
+D.	Apigee
+---
+68. Why is data stored in Google Cloud secure and private?
+A.	Data is encrypted by the Security Command Center
+B.	Data is encrypted by Cloud Data Loss Prevention
+C.	Data is encrypted by default
+D.	Data is encrypted when an appropriate tag is applied
+---
+69. An organization wants to leverage tooling and automation as part of its new DevOps philosophy. Which operational challenge will this resolve?
+A.	Repetitive manual tasks that hinder workflows
+B.	Time-consuming supervision of creative tasks
+C.	Distribution and supply-chain issues
+D.	Defective technical equipment that limits innovation
+---
+70. An organization provides a loyalty program for its customers. It recently partnered with other businesses so that customers can get loyalty points at a range of other stores. Why should the organization use application programming interfaces (APIs)?
+A.	To migrate all partner data for disaster recovery
+B.	To analyze and publish loyalty program statistics to a dashboard
+C.	To personalize recommendations for loyalty card users
+D.	To connect third-party systems to ensure up-to-date information
+---
+71. An organization wants to add a new function to their application. They want to write the code and let the public cloud provider handle the infrastructure. Which infrastructure solution should they use?
+A.  Virtual machines
+B.  Bare Metal Solution
+C.  Serverless computing
+D.  Container Registry
+---
+72.An organization needs a platform to create custom end-to-end artificial intelligence models. Which Google Cloud product or service should the organization use?
+A.  Dataproc
+B.  Compute Engine
+C.  Recommendations Al
+D.  Vertex Al
+---
+73.An organization is looking for a business intelligence solution that allows individual employees and end users to analyze business data and generate insights. Which Google Cloud product or service should the organization use?
+A.  Looker
+B.  Cloud Spanner
+C.  BigQuery
+D.  Dataflow
+---
+74.A food delivery service needs access to real-time menu information from all partner restaurants. They also need to share customer order information with the restaurants in real time. What should the organization use?
+A.  Site reliability engineering (SRE)
+B.  An application programming interface (API)
+C.  A customized machine learning model
+D.  A multi-regional database
+---
+75.An organization is migrating their business applications from on-premises to the cloud. How could this impact their operations and personnel costs?
+A.  Reduced on-premises infrastructure management costs
+B.  Increased on-premises hardware maintenance costs
+C.  Reduced cloud software licensing costs
+D.  Increased cloud hardware management costs
+---
+76.An organization wants to write and run small pieces of code in a serverless way that respond to events like huge discounts. Which Google Cloud compute solution should the organization use?
+A.  Google Kubernetes Engine
+B.  Cloud Functions
+C.  Bare Metal Solution
+D.  Compute Engine
+---
+77.What is logging within the context of cloud technology?
+A.  Writing application and operating system events as text
+B.  Monitoring network and resource limitations
+C.  Tracking source code across an organization
+D.  Recording infrastructure and hardware expenditure
+---
+78.Several departments in an organization are working together on a project. The organization wants to customize access to resources for each department. What is the quickest and most efficient way to achieve this?
+A.  By mapping IAM roles to job functions for each department
+B.  By assigning IAM primitive roles to each employee
+C.  By applying least-privilege to roles for each employee
+D.  By creating a single shared service account for all departments
+---
+79.A retail organization has moved all of their inventory data to a relational database in the cloud. What functionality does a relational database offer?
+A.  It analyzes unstructured data which can then be accessed in multiple regions
+B.  It stores transactional data which can then be accessed electronically
+C.  It stores large amounts of raw data in its original format
+D.  It rapidly analyzes large and multi-dimensional datasets
+---
+80.An organization is using machine learning to make predictions. One of their datasets mistakenly includes mislabeled data. How will the prediction be impacted?
+A.  Increased risk of privacy leaks
+B.  Increased risk of inaccuracy
+C.  Decreased model compatibility
+D.  Decreased model training time
+---
+81.An organization wants to develop an application that can be personalized to user preferences throughout the year. Why should they build a cloud-native application instead of modernizing their existing on- premises application?
+A.  Developers can rely on the cloud provider for all source code
+B.  Developers can launch new features in an agile way
+C.  IT managers can migrate existing application architecture without needing updates
+D.  IT managers can accelerate capital expenditure planning
+---
+82.An organization cannot afford to modernize their infrastructure but they want to process data from their legacy system in a modern platform hosted by a business partner What solution should the organization choose to make their data accessible?
+A.  Compute Engine
+B.  Anthos
+C.  An application programming interlace
+D.  Google Kubernetes Engine
+---
+83.Your customer has a reporting tool that is only occasionally used by the leadership team. Usage of it is frequent once a week, once a month, or once the quarter. They want to run this application in a cost-effective manner. What are the compute options available on Google Cloud which would be suitable? (Choose Two answer)
+A.  Cloud Run
+B.  Cloud App Engine Standard
+C.  Compute Engine
+D.  Kubernetes Engine
+---
+84.You are working with a user to set up an application in a new VPC behind a firewall and it is no-ticed that the user is concerned about data egress. Therefore, to provide assistance you want to con-figure the fewest open egress ports. Which of the following statement is correct?
+A.  Set up a high-priority (1000) rule that blocks all egress and a low-priority (65534) rule that allows only the appropriate ports.
+B.  Set up a low-priority (65534) rule that blocks all egress and a high-priority rule (1000) that allows only the appropriate ports.
+C.  Set up a high-priority (1000) rule to allow the appropriate ports.
+D.  Set up a high-priority (1000) rule that pairs both ingress and egress ports.
+---
+85.DriveSuper Inc. teaches its clients to drive cars and bikes and helps them get their license. They are planning to build a mobile application where users can sign up, plan their schedules, and take stock of progress. They want the onboarding process to be smooth and frictionless, giving users a great experience from the get- go. They want this done as quickly as possible and not be expensive. What is their best option on Google Cloud?
+A.  Build the mobile app with Cloud SQL as the backend
+B.  Build the mobile app with Cloud Storage as the backend
+C.  Build the mobile application with Firebase as the backend
+D.  Build the mobile app with Cloud Spanner as the backend
+---
+86.Google offers Firebase, In terms of Firebase Console, any particular message that has to be deliv-ered to a customer at a certain degree of change in behavior can be managed through
+A.  A/B testing
+B.  Notification Composer
+C.  Firebase Remote config.
+D.  None of the above
+---
+87.A financial services company is running an experimental application workload that has a very large number of mathematical calculations involving floating-point numbers. The current application that is running on compute engine is not providing enough speed and throughput. What are the options to increase the processing performance?
+A.  Use a serverless option like Cloud Functions that will automatically scale as much as required.
+B.  Instead of using a "general purpose" machine family, use "compute-optimized" machine family.
+C.  Since processing could also be dependent on reading and writing data to the disk, use a fast Local SSD.
+D.  Attach GPUs to the virtual machine for number crunching.
+---
+88.A developer in your IT team is cheating a bucket on Cloud Storage. He is receiving an error that the bucket name already exists. He has checked his project and the few other pro-jects in the organization, The name seems to be entirely unique, What would be the is-sue?
+A.  Bucket names ignore any "." in the nam
+B.  Look for similar bucket names that have a "." in it.
+C.  Previously deleted bucket names in the same project cannot be reuse
+D.  There must have been an older bucket with the same name.
+E.  Bucket names in Cloud storage have to be globally unique
+F.  Bucket name are case insensitive- look for bucket name in your org that have a different capitalization.
+---
+89.Which Firebase quality tools help the developer track, prioritize & fix stability issues that erode the application quality?
+A.  Performance
+B.  App Distribution
+C.  Crashlytics
+D.  Test Lab
+---
+90. Which of the following statements is / are correct about Machine Learning?
+A.	Machine learning examples include chatbots and automated virtual assistants to automate routine customer service tasks and speed up issue resolution.
+B.	Machine learning automates the job of building statistical models with Human In-tervention.
+C.	Robotic process automation (RPA) can not be attached with ML.
+D.	None of the Above.
+---
+91. Your company has signed up with a cloud provider and you will be using storage and vir- tual machines with the provider. The provider has provided your organization some expec- tations for what the service should perform at. What type of agreement provides a guar- antee of a certain level of service such as “Uptime”?
+A.	Performance Agreement
+B.	Interconnection Agreement
+C.	Warranty
+D.	Service Level Agreement
+---
+92. One of your clients is in the retail sector. They have a small team supporting their operations and a small development team taking care of application development. They have heard of the benefits of machine learning, but they do not have the capacity to hire data scientists or the work to retain them. They have a team of analysts who works primarily on BigQuery and knows how to run SQL queries. They want to be able to get into the new age of machine learning and artificial intelligence. What options are available to run on Google Cloud?
+A.	Use the popular open-source libraries SciPy and NumPy to create machine learn-ing models.
+B.	Use the Unified AI Platform to create a custom TensorFlow model.
+C.	Use BigQuery ML to create machine learning models using SQL queries.
+D.	Integrate the Cloud Vision API and the Cloud Speech API to create a custom mod-el that will suit the retail sector.
+---
+93. While on-premise, an enterprise had multiple teams, each with its own analytics data store. Attempts to converge the storage for centralized, company-wide analysis failed because of speed and scaling issues. What would be the preferred destination architecture on Google Cloud?
+A.	Migrate to Bigtable which provides high throughput reads and writes.
+B.	Migrate to Cloud Spanner as a globally scalable SQL database.
+C.	Migrate to BigQuery as a central data warehouse.
+D.	Migrate to Cloud SQL which supports multiple databases like MySQL, PostgreSQL, and SQL Server - all of the customer's SQL databases can be accommodated here.
+---
+94. You are a program manager in a company and handling a project and you need to create a virtual machine on google cloud console that will be very simple to set up, by flipping a bit via command, API, or with developer console that gives you 30 seconds to shut down when you’re preempted, allow you to save your work that also helps in the company budget upto 70-80% of less charges than the regular VMs.
+A.	Bare Metal Solutions
+B.	Preemptible Virtual Machines.
+C.	Google Cloud VM Instances
+D.	None of the above.
+---
+95. Which of the following is true while creating a boot persistent disk from a snapshot.
+A.	You cannot apply a snapshot to an existing persistent disk, or apply a snapshot to persistent disks that belong to a different project than that snapshot.
+B.	It is only possible to apply data from a snapshot when you first create a persistent disk.
+C.	After you create a snapshot of a boot persistent disk, you can apply data from that snapshot to new persistent disks.
+D.	All of the above.
+---
+96. You're negotiating SLAs with a customer. You have communicated that there will be a 99.99% (four 9s) availability for the service you are providing. Every aspect of the service is under your con-trol. They want to modify the reliability to 99.999% (five 9s). What do you tell them? (Choose two answer)
+A.	Yes, that could be possibl
+B.	If yes, there will be a significantly higher charge be-cause the effort is significantly higher too.
+C.	Yes, that is possible, but there will be an additional charge of 9% for the service because that is the additional effort required.
+D.	Yes, that is possibl
+E.	There is hardly any difference to provide another 0.009% availability.
+F.	Ask them for the reasonable downtime they are willing to absor
+G.	If it is more than 60 minutes in an entire year, explain how the current SLA meets that requirement.
+---
+97. A customer of yours has an SLA with their client that a particular service will respond within 4 sec-onds. The end client has reported that it feels slower. Your engineers do a trial at the client site and notice that there seems to be a delay for many of the requests. It's your team's responsibility to iden-tify the issue quickly within the strict timeline for fixes according to the contract, and then fix it. What should you do?
+A.	Recommend a move to serverless technologies which will scale automatically on demand.
+B.	Add logging statements at multiple points in the application, build it, and deploy i
+C.	Now new requests will give us information on latency in the logs.
+D.	Check if the browsers used by the client are different from your
+E.	If they are, that's most likely the issu
+F.	Ensure that everybody uses the latest version of the browser that you are also using.
+G.	Use Cloud Trace to collect latency data and track how requests propagate and why there is a delay.
+---
+98. Which of the following statements is/are true about Cloud Spanner offered by Google Cloud Plat-form.
+A.	It can scale horizontally to support additional capacity.
+B.	It comes with Zero Downtime, No Maintenance windows, and is proven for large and small workloads.
+C.	You don't need to shard or replicate data.
+D.	All of the above.
+---
+99. What according to you are NOT the key capabilities of In-App Messaging?
+A.	Target messages accordingly to the change in the behavior pattern of the target audience.
+B.	Creating customized and flexible alerts
+C.	Increasing conversion for user-to-user sharing
+D.	Sending relevant messages to the target audience
+---
+100. Cloud Data Loss Prevention (DLP) is a fully managed service designed to help discover, classify, and protect the most sensitive data. DLP provides three key features (Select Three Answers)
+A.	Classification
+B.	De-identification
+C.	De-classification
+D.	Inspection
+E.	Reinspection
+---
+101. The Border Security Agency has hired your software services firm to build an application for them that will collect information about visas stamped on passports. You are given stamped images. You have to find out which country issued the visa and the period of validity. Pull out this data and put it into a database. Which of these applications would be suitable for that?
+A.	Use Cloud Vision API - write code to identify the text blocks, copy the data, and store it
+B.	Use TensorFlow - write code that will identify the type of visa and the bounding text block
+C.	Copy the data and then store it.
+D.	Use AutoML - upload other images of visas and run the model creation process which will automatically identify the visas
+E.	Use Data Labeling service - outsource the work of marking and extracting the in-formation to others.
+---
+102. You are looking for a one stop reference page for GCP support. What Page would you se- lect?
+A.	Compliance Hub
+B.	Google Cloud Platform Status
+C.	Support Hub
+D.	Pricing Page

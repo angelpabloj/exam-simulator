@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GCP Data Engineer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Simulador de Examen</h1>
+    <form method="post" action="{{ url_for('resultado') }}">
+        {% for num, pregunta in preguntas.items() %}
+            <div class="pregunta">
+                <p class="enunciado">{{ pregunta.enunciado }}</p>
+                <div class="opciones">
+                    {% for letra, opcion in pregunta.opciones.items() %}
+                        <div class="opcion">
+                            <label>
+                                <input 
+                                    type="{{ 'checkbox' if tipos_pregunta[num] == 'multiple' else 'radio' }}" 
+                                    name="respuesta_{{ num }}{% if tipos_pregunta[num] == 'multiple' %}[]{% endif %}" 
+                                    value="{{ letra }}">
+                                {{ letra }}. {{ opcion }}
+                            </label>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+        <button type="submit">Finalizar Examen</button>
+    </form>
+</body>
+</html>

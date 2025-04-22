@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado del Examen</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Resultados del Examen</h1>
+    <p>Respuestas correctas: {{ correctas }} de {{ total }}</p>
+    <p>Puntaje: {{ porcentaje }}%</p>
+
+    {% for resultado in resultados %}
+        <div class="pregunta">
+            <h3>{{ resultado.enunciado }}</h3>
+            <ul class="opciones">
+                {% for letra, texto in resultado.opciones.items() %}
+                    {% set letra_upper = letra.upper() %}
+                    {% if letra_upper in resultado.correcta.split(', ') and letra_upper in resultado.seleccion.split(', ') %}
+                        <li class="opcion correcta">{{ letra }}) {{ texto }}</li>
+                    {% elif letra_upper in resultado.seleccion.split(', ') and letra_upper not in resultado.correcta.split(', ') %}
+                        <li class="opcion incorrecta">{{ letra }}) {{ texto }}</li>
+                    {% elif letra_upper in resultado.correcta.split(', ') and letra_upper not in resultado.seleccion.split(', ') %}
+                        <li class="opcion no-seleccionada">{{ letra }}) {{ texto }}</li>
+                    {% else %}
+                        <li class="opcion">{{ letra }}) {{ texto }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <p><strong>Tu respuesta:</strong> {{ resultado.seleccion or 'Sin responder' }}</p>
+            <p><strong>Respuesta correcta:</strong> {{ resultado.correcta }}</p>
+            <p><strong>Explicación:</strong> {{ resultado.explicacion }}</p>
+        </div>
+
+    {% endfor %}
+    <form action="{{ url_for('examen') }}" method="get" style="text-align: center; margin-top: 20px;">
+    <button type="submit">Volver a tomar el examen</button>
+    </form>
+</body>
+</html>

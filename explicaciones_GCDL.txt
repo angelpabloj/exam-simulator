@@ -1,0 +1,312 @@
+1: GCP provides three options for paid support, which are Standard, Enhanced, and Premium. Basic Support is included with your Google Cloud subscription, which only covers case, phone, and chat support for billing issues. cloud.google.com/support
+---
+2: Google provides a page that brings together everything needed around support. It is called the Support Hub
+:cloud.google.com/support-hub
+---
+3: Web Security Scanner identifies security vulnerabilities in your App Engine, Google Kubernetes Engine (GKE), and Compute Engine web applications. It crawls your application, following all links within the scope of your starting URLs, and attempts to exercise as many user inputs and event handlers as possible.
+Currently, Web Security Scanner only supports public URLs and IPs that aren't behind a firewall. Web Security Scanner currently supports the App Engine standard environment and App Engine flexible environments, Compute Engine instances, and GKE resources.
+Please review this page before the exam: cloud.google.com/security - command-center/docs/concepts-web-security -scanner-overview
+---
+4: GCP provides three main compliance resource webpages:
+Compliance Offerings: cloud.google.com/security /compliance/offerings
+Compliance	Reports	Manager: cloud.google.com/security /compliance/compliance-reports-manager
+GDPR Resource Center: cloud.google.com/security /gdpr/resource-center
+---
+5: Preemptible VM is an instance you can create and run at a lower cost than normal instances.
+However, Compute Engine might stop (pre-empt) these instances if it requires access to those resources for other tasks. Preemptible instances are excess Compute Engine capacity, so their availability varies with usage.
+Live at most 24 hours can be pre-empted with a 30-second notification via API and are discounted significantly.
+cloud.google.com/compute/docs/instances/preemptible
+---
+6:vCPU and memory usage for each of these categories can receive discounts.
+Sustained-use discounts: Google offers up to 30% off for workloads that run for most of the billing month on GCP services.
+Committed-use discounts: users can save up to 57% by committing to use an instance for a certain period, with no upfront payment and with the flexibility to change instances during the commitment period.
+Preemptible VMs: similar to the concept of AWS spot instances, Google offers up to 79% off for Virtual Machines that may be shut down at any time and replaced by others.
+Sustained-use discounts: cloud.google.com/compute/docs/sustained-use- discounts
+Committed-use discounts:
+cloud.google.com/compute/docs/instances/signing-up-committed-use- discounts
+Discounts for preemptible VM instances:
+cloud.google.com/compute/docs/instances/preemptible
+---
+7: A project facilitates organization of services and objects and also uses this method of segmentation for billing and accounting.
+Track resource and quota usage, enable billing, manage permissions and credentials, enable services and APIs:
+cloud.google.com/storage/docs/projects.
+---
+8:Community Cloud – the cloud infrastructure is planned for selective use by a particular community of consumers from organizations that have mutual interests like security needs, policy, and compliance considerations.
+csrc.nist.gov/glossary /term/community _cloud
+---
+9: Software as a Service (SaaS) provides a complete product run and managed by the service provider. The user only needs to worry about using the software and not about infrastructure.
+SaaS provides the lowest level of flexibility and management control over the infrastructure. (Example: Google Workspace and MS O365).
+csrc.nist.gov/glossary /term/saas
+---
+10: A Service Level Agreement (SLA) is a contract between a service provider (either internal or external) and the end user that defines the level of service expected from the service provider. Some common SLAs are uptime, response time, and so on.
+csrc.nist.gov/glossary /term/service_level_agreement
+---
+11: In cloud computing, multi-tenancy means multiple customers of a cloud vendor use the same computing resources. Even though they share resources, cloud customers aren't aware of each other and their data is kept completely separate. Multi-tenancy is a crucial component of cloud computing; without it, cloud services would be far less practical. Multi- tenant architecture is a feature in many types of public cloud computing, including IaaS, PaaS, SaaS, containers, and serverless computing.
+cloudflare.com/learning/cloud/what-is-multitenancy nist.gov/NIST_SP-500-291_Version-2_2013_June18_FINAL.pdf
+---
+12: With Lift and Shift migrations, the customer could move workloads from a source environment to a target environment with few or no modifications or refactoring.
+Please	review	this	page	before	the	exam: cloud.google.com/architecture/migration-to-gcp-getting-started
+---
+13: Google Cloud Armor security policies protect your application by providing Layer 7 filtering and scrubbing incoming requests for common web attacks or other Layer 7 attributes to potentially block traffic before it reaches your load-balanced backend services or backend buckets. Each security policy comprises a set of rules that filter traffic based on conditions such as an incoming request's IP address, IP range, region code, or request headers.
+Google Cloud Armor security policies are available only for backend services behind an external HTTP(S) load balancer. The load balancer can be in Premium Tier or Standard Tier.
+Google Cloud Armor security policies and IP DENY lists, while ALLOW lists are available only for HTTP(S) load balancing.
+Please refer to this page before the exam: cloud.google.com/armor/docs/security -policy -overview
+---
+14: By default, the limit is 5 per project. You can contact support to have this adjusted as needed. The exam has a few trivia around projects and quotas.
+cloud.google.com/vpc/docs/using-vpc
+---
+15: Compute Engine provides machine-type recommendations to help you optimize the resource utilization of your virtual machine (VM) instances. These recommendations are automatically generated based on system metrics gathered by the Cloud Monitoring service over the previous 8 days. Use these recommendations to resize your instance's machine type to use the instance’s resources more efficiently. This feature is also known as rightsizing recommendations.
+cloud.google.com/compute/docs/instances/apply -machine-type- recommendations-for-instances
+---
+16: Autoscaling is supported in both Flexible and Standard environments. Flexible Environments do run a Docker container that includes a custom runtime or source code written in other programming languages.
+cloud.google.com/appengine/docs/the-appengine-environments
+---
+17: Classification is the process to inspect the data and know what data we have, how sensitive it is, and the likelihood. Inspection and classification happen here.
+De-identification is the process of removing, masking, and replacing information from data.
+Please review this page before the exam: cloud.google.com/dlp/docs
+---
+18: - Google Cloud Pub/Sub is a scalable, durable event ingestion and delivery system.
+Pub/Sub allows services to communicate asynchronously, with latencies on the order of 100 milliseconds.
+ - Pub/Sub is used for streaming analytics and data integration pipelines to ingest and distribute data. It is equally effective as messaging-oriented middleware for service integration or as a queue to parallelize tasks.
+- Pub/Sub enables you to create systems of event producers and consumers called publishers and subscribers. Publishers communicate with subscribers asynchronously by broadcasting events rather than by synchronous remote procedure calls (RPCs).
+cloud.google.com/pubsub/docs/overview
+---
+19: A project organizes all Google Cloud resources. A project consists of a set of users, a set of APIs, and billing, authentication, and monitoring settings for those APIs. A project does not manage monitoring or link APIs to organizations.
+cloud.google.com/docs/overview#projects
+---
+20: Cloud Trace (formerly Stackdriver Trace) is a distributed tracing system that collects latency data from your applications and displays it in the Google Cloud Console. You can track how requests propagate through your application and receive detailed, near real-time performance insights. Cloud Trace automatically analyses all your application's traces to generate in-depth latency reports to surface performance degradations and can capture traces from all your VMs, containers, or App Engine projects.
+Please review this page before the exam: cloud.google.com/trace
+---
+21: An organization resource is available for Google Workspace (formerly G Suite) and Cloud Identity customers. Organizations are confusing at first, but for this exam, we must understand the GCP Cloud hierarchy details and what role an organization administrator is about.
+cloud.google.com/resource-manager/docs/creating-managing-organization
+---
+22: Google Container Registry (GCR) provides secure, private Docker image storage on Google Cloud and is usage-based – no licensing or subscription required. GCR does provide resource-level access fully integrated with Cloud IAM (fine-grained access control).
+cloud.google.com/container-registry
+---
+23: Object Lifecycle and Object Versioning. cloud.google.com/storage/docs/lifecycle
+---
+24: For certain workloads, this can provide lower baseline resource usage and lets you scale down instances when in the public cloud to cost less. Cloud Run is a service that provides this capability.
+dzone.com/scale-to-zero-with-kubernetes
+---
+25: BigQuery vs. BigTable:
+BigQuery is what you use when you have collected a large amount of data and need to ask questions about it (it’s serverless).
+BigTable is a database designed to be the foundation for a large, scalable application.
+Use BigTable when making any kind of app that needs to read and write data and scale is a potential issue (low latency).
+Use BigQuery when you have collected a large amount of data and then need to ask questions about it (query).
+ cloud.google.com/developers-practitioners/bigtable-vs-bigquery -whats- difference
+---
+26: The Google Cloud Vision API allows developers to easily integrate vision detection features within applications, including image labeling, face and landmark detection, optical character recognition (OCR), and tagging explicit content.
+ 	- Detect objects and faces, read printed and handwritten text, and build valuable metadata into your image catalog.
+ 	- Meant for ML Teams with Expertise.
+cloud.google.com/vision
+---
+27: Cloud Source Repositories is a secure hosted private Git on Google Cloud.
+cloud.google.com/source-repositories
+---
+28: Tensors are a term and set of techniques known in machine learning in the training and operation of deep learning models. Tensors play an important role in ML by encoding multi-dimensional data.
+tensorflow.org/guide/tensor
+---
+29: Cloud TPU is a custom-designed machine learning ASIC that powers Google products like Translate, Photos, Search, Assistant, and Gmail.
+Built for AI on Google Cloud, Cloud TPU is designed to run cutting-edge machine learning models with AI services on Google Cloud.
+cloud.google.com/tpu
+---
+30: Google Cloud Dataflow is a cloud-based data processing service for both batch and real-time data streaming applications. It enables developers to set up processing pipelines for integrating, preparing, and analyzing large data sets, such as those found in web analytics or big data analytics applications. Data Extraction to Endpoints:
+cloud.google.com/dataflow
+---
+31: Cloud Storage Transfer Service would be the best option since network bandwidth is not an issue. With Storage Transfer Service, you can transfer petabytes of data from on-premises sources to Cloud Storage over networks. Cloud Storage Appliance would work too; however, that would be an offline transfer which was not the stated requirement in this scenario. Cloud Pub/Sub is meant for streaming data for GCP applications, not for migrating data.
+cloud.google.com/storage-transfer/docs/overview
+---
+32: SDLC can be used with any software deployment that requires a rigorous framework and is not a proprietary process or framework.
+stackify.com/what-is-sdlc
+---
+33: BigQuery is the correct answer. On the exam, you must remember the difference between BigTable and BigQuery.
+cloud.google.com/bigquery
+---
+34: Before taking the Cloud Leader exam, you must review this page. Expect several questions on the adoption framework.
+The framework assesses four themes:
+ 	- Learn: the quality and scale of your learning programs.
+  	- Lead: the extent to which your IT departments are supported by a mandate from leadership to migrate to Google Cloud.
+ 	- Scale: the extent to which you use cloud-native services and how much operational automation you currently have in place.
+ 	- Secure: the capability to protect your current environment from unauthorized and inappropriate access.
+cloud.google.com/architecture/migration-to-gcp-getting- started#gcp_adoption_framework
+---
+35: Learn and Lead are "topics" not themes.
+We must review this page before the exam. We can expect several questions directly from this page.
+cloud.google.com/architecture/migration-to-gcp-getting- started#gcp_adoption_framework
+Themes are:
+- Tactical: There are no coherent plans covering all the individual workloads you have in place. You're mostly interested in a quick return on investments and little disruption to your IT organization.
+- Strategic: There is a plan to develop individual workloads with an eye to future scaling needs. You're interested in the mid-term goal to streamline operations to be more efficient than they are today.
+- Transformational: Cloud operations work smoothly, and you use data gathered from those operations to improve your IT business. You're interested in the long-term goal of making the IT department one of the engines of innovation in your organization.
+---
+36: Optimize shows full cloud-native capacity.
+cloud.google.com/architecture/migration-to-gcp-getting- started#gcp_adoption_framework
+There are four phases of your migration:
+- Assess: In this phase, you perform a thorough assessment and discovery of your existing environment to understand your app and environment inventory, identify app dependencies and requirements, perform a total cost of ownership calculations, and establish app performance benchmarks.
+- Plan: In this phase, you create the basic cloud infrastructure for your workloads to live in and plan how you will move apps. This planning includes identity management, organization and project structure, networking, sorting your apps, and developing a prioritized migration strategy.
+- Deploy: In this phase, you design, implement, and execute a deployment process to move workloads to Google Cloud. You might also have to refine your cloud infrastructure to deal with new needs.
+- Optimize: In this phase, you begin to take full advantage of cloud-native technologies and capabilities to expand your business's potential to things like performance, scalability, disaster recovery, costs, training, and opening the doors to machine learning and artificial intelligence integrations for your app.
+---
+37: Use BigTable when making any kind of app that needs to read and write data and scale is a potential issue (low latency).
+cloud.google.com/bigtable
+---
+38: TensorFlow	is	an end-to-end,	open-source	platform for machine learning.
+Core Libraries:
+  	- Build and train ML models easily using intuitive high-level APIs.
+ 	- Train and deploy models in the cloud, on-prem, in the browser, or on-device no matter what language you use.
+tensorflow.org
+---
+39: - ISO/IEC 27017:2015 gives guidelines for information security controls applicable to the provision and use of cloud services by providing additional implementation guidance for relevant controls specified in ISO/IEC 27002 and additional controls with implementation guidance that specifically relate to cloud services.
+- ISO 27001 outlines and provides the requirements for an information security management system (ISMS), specifies a set of best practices, and details the security controls that can help manage information risks, but it's not specific to cloud. ISO 27002 is related to security controls to implement ISO 27001, and ISO 27018 relates to one of the most critical components of cloud privacy: the protection of Personally Identifiable Information (PII).
+Please review the page below before the exam: cloud.google.com/security /compliance/iso-27017
+---
+40: Compute Engine VM comes with a single root persistent disk hosted on Persistent Disk.
+Persistent disks are durable network storage devices that your instances can access, like physical disks on a desktop or server. The data on each persistent disk is distributed across several physical disks. Compute Engine manages the physical disks and the data distribution to ensure redundancy and optimal performance.
+Persistent disks are located independently from your virtual machine (VM) instances, so you can detach or move persistent disks to keep your data even after you delete your instances. Persistent disk performance scales automatically with size, so you can resize your existing persistent disks or add more to an instance to meet your performance and storage space requirements.
+Image is loaded onto root disk during boot process. cloud.google.com/compute/docs/disks
+---
+41: A and B are correct. Cloud Functions is Google's event-driven serverless platform that does not use containers and is not a cloud-native service.
+cloud.google.com/run
+---
+42: Cloud VPN provides private-to-private connectivity, and your internet connection meets your business requirements.
+ 	Ensures VMs you provisioned in GCP can communicate directly with on-premises resources via a private IP range.
+ 	Private RFC1918 addresses  	IPSEC Tunnels
+ 	IPSEC VPN tunnels encrypt data by using industry-standard IPsec protocols as traffic traverses the public Internet.
+cloud.google.com/hybrid-connectivity
+---
+43: - Service accounts authenticate applications running on your virtual machine instances to other GCP services.
+ - Each service account is associated with a key pair, which is managed by GCP. It is used for service-to-service authentication within GCP.
+ - Google rotates the keys daily. 
+ cloud.google.com/iam/docs/service-accounts
+---
+ 44: Google Cloud provides several private access options that let Virtual Machine (VM) instances reach supported APIs and services without requiring an external IP address.
+  	- Option supports the APIs and services that you need to access.  	 
+  	- Private Google Access, Private Google Connect, and so on.
+cloud.google.com/vpc/docs/private-access-options
+---
+45: Cloud Identity is an Identity as a Service (IDaaS) solution that centrally manages users and groups.
+ 	- Configure Cloud Identity to federate identities between Google and other identity providers, such as Active Directory and Azure Active Directory.
+ 	- Use Identity and Access Management (IAM) to manage access to Google Cloud resources for each Cloud Identity account.
+ 	- Use to create a GCP Organization (Super User is the organization admin).
+ 	- Two editions – Free and Premium. 
+ support.google.com/cloudidentity /device-management
+---
+ 46: Fully managed relational database service for MySQL, PostgreSQL, and SQL Server. Cloud SQL is a fully-managed database service that makes it easy to set up, maintain, manage, and administer your relational MySQL databases in the cloud.
+ 	- Flexible pricing  	
+ 	- Managed service
+ 	- Supports application replication 
+ cloud.google.com/sql
+---
+ 47: - Enterprises can validate, run, and migrate applications into Google Cloud without rewriting them, modifying the image, or changing management processes.
+ 	- Google bought Velostrata and rebranded to Google Cloud Migrate for Compute.
+cloud.google.com/migrate/compute-engine
+---
+48: Cloud VPN provides private-to-private connectivity, and your internet connection meets your business requirements.
+Ensure VMs you provisioned in GCP can communicate directly with on- premises resources via a private IP range.
+cloud.google.com/networking/google-cloud-network-connectivity -options- explained
+---
+49: Capital Expenditures (CAPEX) are investments made by an organization for long-term benefits in the future.
+Operational Expenditures (OPEX) are the ongoing costs related to day-to- day operations.
+ 
+cloudhealthtech.com/capex-vs-opex-cloud-cost-management
+---
+50: The five essential characteristics are:
+- On-demand self-service
+A consumer can unilaterally provision computing capabilities, such as server time and network storage, as needed automatically without requiring human interaction with each service provider.
+- Broad network access
+Capabilities are available over the network and accessed through standard mechanisms that promote use on any device.
+- Resource pooling
+The provider’s computing resources are pooled to serve multiple consumers using a multi-tenant model, with different physical and virtual resources dynamically assigned and reassigned according to consumer demand.
+- Rapid elasticity
+Capabilities can be elastically provisioned and released, in some cases automatically, to scale rapidly outward and inward commensurate with demand. 
+- Measured service
+Cloud systems automatically control and optimize resource use by leveraging a metering capability at some level of abstraction appropriate to the type of service. Resource usage can be monitored, controlled, and reported, providing transparency for both the provider and consumer of the utilized service.
+nist.gov/final-version-nist-cloud-computing-definition-published
+---
+51: Combinación de reservas con compromisos: Un descuento por uso comprometido proporciona un acuerdo de precio con descuento de 1 o 3 años, pero no reserva capacidad en una zona específica. Una reserva asegura que la capacidad se mantenga en una zona específica incluso si las máquinas virtuales reservadas no están ejecutándose. Al combinar una reserva con un compromiso, obtienes recursos reservados y con descuento.
+---
+52: When an identity calls a Google Cloud API, BigQuery requires that the identity has the appropriate permissions to use the resource. You can grant permissions by granting roles to a user, a group, or a service account.
+Reference link- https://cloud.google.com/bigquery/docs/access-control
+---
+53: Folders are nodes in the Cloud Platform Resource Hierarchy. A folder can contain projects, other folders, or a combination of both. Organizations can use folders to group projects under the organization node in a hierarchy. For example, your organization might contain multiple departments, each with its own set of Google Cloud resources. Folders allow you to group these resources on a per-department basis. Folders are used to group resources that share common IAM policies. While a folder can contain multiple folders or resources, a given folder or resource can have exactly one parent.
+---
+54: Cada implementación en la nube necesita una red a través de la cual se pueda mover información. Sin una red, no puedes ver videos de gatos, cargar tus selfies, ni permitir que microservicios se comuniquen entre sí.
+Google Cloud proporciona una red global, escalable y flexible para tus cargas de trabajo y servicios basados en la nube, y la manera en la que utilizas esa red afecta cuatro aspectos críticos de tu implementación: costo, seguridad, rendimiento y disponibilidad.
+Al diseñar una arquitectura de red confiable, sólida y rentable, querrás que múltiples equipos dentro de la empresa opinen sobre estos cuatro elementos para determinar tus prioridades. Los siguientes consejos destacan algunas consideraciones que debes tomar en cuenta al arquitectar tu solución de red.
+---
+55: Reference: https://cloud.google.com/resource-manager/docs/organization-policy/overview
+---
+56: Migrate for Compute Engine enables you to lift and shift workloads at scale to Google Cloud Compute Engine with minimal changes and risk. Reference: https://dataintegration.info/simplify-vm-migrations-with-migrate-for-compute-engine-as-a-service
+---
+57: Host all your subsidiaries' services together with your existing services on the public cloud.
+---
+58: Bare Metal Solution for Oracle, Bring your Oracle workloads to Google Cloud with Bare Metal Solution and jumpstart your cloud journey with minimal risk.
+-	Continue to run any version, any feature set, any database option, and any customizations (patchsets)
+-	Enterprise-grade deployment platform
+-	High availability with Oracle RAC
+-	Works with any application, any Oracle versions
+-	All your existing investment in tooling and best practices will work as is
+---
+59: By storing their application data in the cloud the organization will be able to gather and analyze user behavior data in real-time. This will enable them to dynamically adjust their application for different user needs.
+---
+60: APIs can create new business value by connecting legacy systems (the checkout hardware) with new software (the virtual customer service application).
+---
+61: Reference: https://cloud.google.com/blog/products/identity-security/achieving-identity-and-access-governance-on-google-cloud
+---
+62: Because in the cloud era, users expect more personalization and customization.
+---
+63: Reference: https://cloud.google.com/blog/products/gcp/take-charge-of-your-sensitive-data-with-the-cloud-dlp-api Cloud Data Loss Prevention: Fully managed service designed to help you discover, classify, and protect your most sensitive data.
+---
+64:BigQuery ML lets you create and execute machine learning models in BigQuery using standard SQL queries. Reference: https://cloud.google.com/bigquery-ml/docs/introduction#:~:text=BigQuery%20ML%20lets%20you%20create,the%20need%20 to%20move%20data Graphical user interface, text, application, email Description automatically generated https://cloud.google.com/bigquery-ml/docs/introduction
+---
+65: 
+---
+66:
+---
+67:Per Google docs, App Engine, allows for "freeing up your developers with zero server management and zero configuration deployments". https://cloud.google.com/appengine
+---
+68:https://cloud.google.com/docs/security/encryption/default-encryption#:~:text=Google%20uses%20the%20Advanced%20Encryption,to%202015%20t hat%20use%20AES128
+---
+69:
+---
+70:
+---
+71:Serverless computing , as public cloud prouder(eg. google) will mange the infra things
+---
+72:Recommendations AI enables you to build an end-to-end personalized recommendation system based on state-of-the-art deep learning ML models, without a need for expertise in ML or recommendation systems. With Vertex AI, both AutoML training and custom training are available options. Whichever option you choose for training, you can save models, deploy models, and request predictions with Vertex AI. https://cloud.google.com/vertex-ai
+---
+73:
+---
+74:
+---
+75:
+---
+76:
+---
+77:Cloud Logging is a fully managed service that allows you to store, search, analyze, monitor, and alert on logging data and events from Google Cloud and Amazon Web Services
+---
+78:
+---
+79:A relational database offers the functionality of storing transactional data, which can then be accessed electronically. Relational databases store structured data that can be organized in tables with defined relationships between them. This makes them well- suited for transactional data, such as inventory data, that needs to be accessed and updated frequently.
+---
+80:
+---
+81:
+---
+82:
+---
+83:Since the use of the tool is infrequent/intermittent, you can choose to compute options that are serverless. Both Cloud Run and Cloud App Engine Standard are serverless options that can shut down to zero. Since cost-effectiveness is a requirement, this will not cost anything during the periods it is not used.
+---
+84:Implied rules Every VPC network has two implied firewall rules. These rules exist, but are not shown in the Cloud Console:
+Implied allow egress rule. An egress rule whose action is allow, destination is 0.0.0.0/0, and priority is the lowest possible (65535) lets any instance send traffic to any destination, except for traffic blocked by Google Cloud. A higher priority firewall rule may restrict outbound access. Internet access is allowed if no other firewall rules deny outbound traffic and if the instance has an external IP address or uses a Cloud NAT instance. For more information, see Internet access requirements.
+---
+85:Firebase/Firestore is easy to build and is suitable for user information that could bvary in nature.
+---
+86:You can send notification messages using the Notifications composer in the Firebase console. Though this does not provide the same flexibility or scalability as sending messages with the Admin SDK or the HTTP and XMPP protocols, it can be very useful for testing or for highly targeted marketing and user engagement. The Firebase console provides analytics-based A/B testing to help refine and improve marketing messages.
+After you have developed logic in your app to receive messages, you can allow non- technical users to send messages per the instructions on the Notifications page in the Firebase Help Center.
+---
+87:Compute Engine provides graphics processing units (GPUs) that you can add to your virtual machines (VMs). You can use these GPUs to accelerate specific workloads on your VMs such as machine learning and data processing. https://cloud.google.com/compute/docs/gpus
+---
+88:Bucket names have to be unique across Google Cloud Platform [GCP], Including other organizations and projects.
+---
+89:- Firebase Crashlytics: Get clear, actionable insight into app issues with this powerful crash reporting solution for iOS, Android, and Unity. - Firebase Crashlytics is a lightweight, real-time crash reporter that helps you track, prioritize, and fix stability issues that erode your app quality. Crashlytics saves you troubleshooting time by intelligently grouping crashes and highlighting the circumstances that lead up to them. Find out if a particular crash is impacting a lot of users. Get alerts when an issue suddenly increases in severity. Figure out which lines of code are causing crashes.
+
